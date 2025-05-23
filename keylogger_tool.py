@@ -59,7 +59,7 @@ def main():
         print("\n Ctrl+C detected – Logging interrupted manually.")
         logging.info("\n[!] Logging manually interrupted with Ctrl+C\n")
         logging.info("=" * 55)
-        print("[✔] Log saved to:", LOG_FILE)
+        print(" Log saved to:", LOG_FILE)
     except Exception as e:
         print(f"[!] Error occurred: {e}")
         logging.error(f"[!] Exception occurred: {e}")
