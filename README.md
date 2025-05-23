@@ -1,4 +1,4 @@
-# Keylogger Tool (For Security Research Only)
+# Keylogger Tool 
 
 This Python-based command-line interface (CLI) tool is meticulously designed to log keystrokes, serving exclusively for **ethical security research, educational purposes, and controlled simulations of malware behavior.**
 
