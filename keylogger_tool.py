@@ -43,10 +43,10 @@ def on_release(key):
 # ===== Display Banner =====
 def print_banner():
     print("\n" + "="*60)
-    print(" 🔐 Keylogger for Security Research")
-    print(" 👨‍💻 Developed by Yuva Prasath")
-    print(" 📁 Logging File:", LOG_FILE)
-    print(" 🚨 Press ESC to stop logging")
+    print("  Keylogger for Security Research")
+    print("  Developed by Yuva Prasath")
+    print("  Logging File:", LOG_FILE)
+    print("  Press ESC to stop logging")
     print("="*60 + "\n")
 
 # ===== Main =====
@@ -56,7 +56,7 @@ def main():
         with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
             listener.join()
     except KeyboardInterrupt:
-        print("\n[✋] Ctrl+C detected – Logging interrupted manually.")
+        print("\n Ctrl+C detected – Logging interrupted manually.")
         logging.info("\n[!] Logging manually interrupted with Ctrl+C\n")
         logging.info("=" * 55)
         print("[✔] Log saved to:", LOG_FILE)
